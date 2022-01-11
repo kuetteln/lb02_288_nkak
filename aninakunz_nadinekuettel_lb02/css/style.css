@@ -1,0 +1,100 @@
+
+section {
+    width: 180px;
+    padding: 10px;
+    margin: 0px 5px 5px 20px;
+    border: 1px dotted #49b675;
+    background-color: #CFF0CC;
+}
+
+.operation {
+    width: 90px;
+    padding: 10px;
+    margin: 0px 5px 5px 20px;
+    border: 1px dotted transparent;
+    background-color: transparent;
+    text-align: center;
+}
+
+
+main {
+    font-family: sans-serif;
+    width: 90%;
+    padding: 10px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+}
+input {
+    text-align: right;
+}
+
+input[type='image'] {
+    margin-top: 2.5rem;
+}
+
+input[type='image'] {
+    width: 40px;
+    height: auto;
+}
+
+header {
+    color: blue;
+}
+img {
+    width: 200px;
+    margin-right: 20px;
+}
+article {
+    display: flex;
+    flex-direction: column;
+
+}
+section.flex {
+    display: flex;
+    flex-direction: column;
+}
+header {
+
+    top: 0;
+    width: 100%
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav.topnav {
+    background-color: #CFF0CC;
+    overflow: hidden;
+
+}
+
+/* Style the links inside the navigation bar */
+nav.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Change the color of links on hover */
+nav.topnav a:hover {
+    background-color: #49b675;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+nav.topnav a.active {
+    background-color: #49b675;
+    color: black;}
+
+div {
+    display: flex;
+    flex-direction: row;
+}
+h4 {
+    margin-right: 200px;
+}

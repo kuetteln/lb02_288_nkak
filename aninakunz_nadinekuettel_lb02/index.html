@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <title>LB02 Nadine Küttel und Anina Kunz</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<header>
+    <nav class="topnav">
+        <ul >
+            <li><a href="./index.html" class="active">Währungsumrechner</a></li>
+            <li><a href="./kleider.html">Sortiment</a></li>
+
+
+        </ul>
+    </nav>
+</header>
+<body>
+<h1> Outletshop NAY <br>LB02 des Modul 288 <br>Anina Kunz und Nadine Küttel</h1>
+<main>
+
+    <section>
+        <h3>Aktuelle Währung</h3>
+        <p>
+            <input type="text" id="localAmount" size="15" value="">
+            <select id="localExchange">
+                <option value="chf">CHF</option>
+            </select>
+        </p>
+    </section>
+    <section class="operation">
+        <input type="image"  alt="Convert from foreign to local" id="links"
+               src="img/arrows-left.png" onclick="foreignToLocal();">
+        <input type="image" alt="Convert from local to foreign" id="rechts"
+               src="img/arrows-right.png" onclick="localToForeign();">
+    </section>
+    <section>
+        <h3>Ziel Währung</h3>
+        <p>
+            <input type="text" id="foreignAmount" size="15" value="">
+            <select id="foreignExchange">
+                <option id="euro" value="eur">EUR</option>
+                <option id="dollar" value="usd">USD</option>
+            </select>
+        </p>
+    </section>
+
+
+</main>
+<script src="data.js" ></script>
+<script src="app.js"></script>
+
+</body>
+</html>
